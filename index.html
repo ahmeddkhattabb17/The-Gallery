@@ -8,24 +8,16 @@
   <title>The Gallery — Curated Visual Stories</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
     <nav class="nav container" aria-label="Primary navigation">
-      <a class="brand" href="#home" aria-label="The Gallery home">
-        <img src="./Images/Logo.png" alt="The Gallery logo">
-        <span>The Gallery</span>
-      </a>
-      <div class="nav-links">
-        <a href="#home">Home</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#about">About</a>
-      </div>
+      <a class="brand" href="#home" aria-label="The Gallery home"><img src="./Images/Logo.png" alt="The Gallery logo"><span>The Gallery</span></a>
+      <div class="nav-links"><a href="#home">Home</a><a href="#gallery">Gallery</a><a href="#about">About</a></div>
     </nav>
   </header>
-
   <main id="home">
     <section class="hero container">
       <div class="hero-copy">
@@ -34,36 +26,13 @@
         <p class="hero-text">A refined collection of nature scenes and football moments, presented with a simple editorial experience.</p>
         <a class="button button-primary" href="#gallery">Explore the collection <span>↗</span></a>
       </div>
-      <div class="hero-image">
-        <img src="./Images/Gallery/image 1.avif" alt="Featured nature photograph">
-        <span class="hero-label">01 / Featured</span>
-      </div>
+      <div class="hero-image"><img src="./Images/Gallery/image 1.avif" alt="Featured nature photograph"><span class="hero-label">01 / Featured</span></div>
     </section>
-
     <section id="gallery" class="gallery-section container">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">The collection</p>
-          <h2>Explore the gallery</h2>
-        </div>
-        <p class="section-note">Select a category or browse everything.</p>
-      </div>
-
-      <div class="filters" role="group" aria-label="Gallery categories">
-        <button class="filter active-filter" data-filter="all">All</button>
-        <button class="filter" data-filter="nature">Nature</button>
-        <button class="filter" data-filter="football">Football</button>
-      </div>
-
+      <div class="section-heading"><div><p class="eyebrow">The collection</p><h2>Explore the gallery</h2></div><p class="section-note">Select a category or browse everything.</p></div>
+      <div class="filters" role="group" aria-label="Gallery categories"><button class="filter active-filter" data-filter="all">All</button><button class="filter" data-filter="nature">Nature</button><button class="filter" data-filter="football">Football</button></div>
       <div class="slideshow-container">
-        <div class="slideshow-toolbar">
-          <span class="gallery-count"><strong id="current-count">01</strong> / <span id="total-count">08</span></span>
-          <div class="slideshow-controls">
-            <button class="icon-button prev-btn" type="button" aria-label="Previous image">←</button>
-            <button class="icon-button next-btn" type="button" aria-label="Next image">→</button>
-          </div>
-        </div>
-
+        <div class="slideshow-toolbar"><span class="gallery-count"><strong id="current-count">01</strong> / <span id="total-count">08</span></span><div class="slideshow-controls"><button class="icon-button prev-btn" type="button" aria-label="Previous image">←</button><button class="icon-button next-btn" type="button" aria-label="Next image">→</button></div></div>
         <div class="slideshow" aria-live="polite">
           <img class="slide active" data-category="nature" src="./Images/Gallery/image 1.avif" alt="Nature landscape">
           <img class="slide" data-category="nature" src="./Images/Gallery/image 2.avif" alt="Nature scene">
@@ -78,27 +47,21 @@
       </div>
       <div class="thumbnail-container" aria-label="Gallery thumbnails"></div>
     </section>
-
     <section id="about" class="about-section">
       <div class="about container">
         <p class="eyebrow">About the project</p>
         <div class="about-grid">
-          <h2>Simple. Visual.<br><em>Intentional.</em></h2>
+          <h2>Where every<br><em>image tells a story.</em></h2>
           <div>
-            <p>The Gallery is a frontend project built around the idea that great images deserve a calm, focused presentation.</p>
-            <p>Browse curated nature and football photography through responsive layouts, category filters, thumbnails and an automatic slideshow.</p>
+            <p>The Gallery is a modern photography showcase designed to turn a collection of images into an immersive visual experience.</p>
+            <p>From peaceful landscapes to unforgettable football moments, each photograph is presented with a clean, elegant interface that keeps the focus where it belongs — on the image.</p>
+            <p>Built as a frontend project with HTML, CSS and JavaScript, The Gallery combines responsive design, interactive filtering, dynamic thumbnails and an automatic slideshow into one seamless experience.</p>
           </div>
         </div>
       </div>
     </section>
-
     <section class="selected-work container" aria-labelledby="selected-title">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Selected work</p>
-          <h2 id="selected-title">A closer look</h2>
-        </div>
-      </div>
+      <div class="section-heading"><div><p class="eyebrow">Selected work</p><h2 id="selected-title">A closer look</h2></div></div>
       <div class="image-grid">
         <figure><img src="./Images/Gallery/Football 1.jpg" alt="Football photograph" loading="lazy"></figure>
         <figure><img src="./Images/Gallery/Football 2.jpg" alt="Football photograph" loading="lazy"></figure>
@@ -109,13 +72,7 @@
       </div>
     </section>
   </main>
-
-  <footer class="footer">
-    <div class="container footer-inner">
-      <span>© 2026 The Gallery</span>
-      <span>Built with HTML, CSS & JavaScript</span>
-    </div>
-  </footer>
+  <footer class="footer"><div class="container footer-inner"><span>© 2026 The Gallery</span><span>Built with HTML, CSS & JavaScript</span></div></footer>
   <script src="script.js"></script>
 </body>
 </html>
