@@ -1,56 +1,37 @@
 # The Gallery
 
-A polished, responsive image gallery built with vanilla HTML, CSS and JavaScript.
+A responsive image gallery built with vanilla HTML, CSS, and JavaScript, combining editorial presentation with interactive browsing and slideshow behavior.
 
-## ✨ Features
+## Overview
 
-- Editorial-inspired dark interface
-- Responsive layout for desktop, tablet and mobile
-- Nature and football category filters
-- Automatic slideshow with previous/next controls
+The Gallery is focused on visual storytelling and interaction. The project demonstrates how a lightweight frontend can deliver a polished media-browsing experience without a framework.
+
+## Features
+
+- Responsive gallery layout
+- Nature and football category filtering
+- Automatic slideshow
+- Previous and next controls
 - Interactive thumbnails and slide indicators
-- Lazy-loaded selected-work images
+- Lazy-loaded selected images
 - Semantic HTML and accessible controls
-- SEO-friendly metadata and typography
+- Responsive typography and spacing
 
-## 🛠️ Tech Stack
+## Technology
 
 - HTML5
 - CSS3
 - JavaScript (ES6+)
 - Google Fonts
 
-## 📁 Project Structure
+## Development
 
-```
-The-Gallery/
-├── Images/
-│   ├── Gallery/
-│   ├── Logo.jpg
-│   └── Logo.png
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
+Clone the repository and open `index.html`, or serve the project with any static server. No build tools are required.
 
-## 🚀 Getting Started
+## Portfolio Focus
 
-Clone the repository and open `index.html` in your browser:
+Vanilla JavaScript, DOM interaction, responsive layouts, image presentation, accessibility, and visual composition.
 
-```bash
-git clone https://github.com/ahmeddkhattabb17/The-Gallery.git
-cd The-Gallery
-```
+## Author
 
-No build tools or dependencies are required.
-
-## 👤 Author
-
-**Ahmed Khattab**
-
-GitHub: https://github.com/ahmeddkhattabb17
-
-## 📄 License
-
-This project is available for learning and portfolio use. Image rights belong to their respective owners.
+**Ahmed Khattab** — Front-End Web Developer
